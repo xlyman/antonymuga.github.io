@@ -252,6 +252,10 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
+.map {
+  border: solid #11ABB0;
+}
+
 
 /* ------------------------------------------------------------------ */
 /* d. Resume Section
