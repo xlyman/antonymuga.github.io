@@ -253,8 +253,9 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .map {
-  padding-top: 10px;
+  padding-top:0px;
   border: solid #11ABB0;
+  border-top: none;
 }
 
 
