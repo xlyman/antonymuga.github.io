@@ -33,7 +33,7 @@
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
+      font: 17px/1.9em 'Merienda One', serif;
       width: 80%;
    }
    header .banner-text hr {
@@ -129,7 +129,7 @@
 	#nav-wrap > a:before,
    #nav-wrap > a:after {
 	   position: absolute;
-		border: 2px solid #fff;
+		border: 2px solid #d9d9d9;
 		top: 35%;
 		left: 25%;
 		right: 25%;
@@ -193,7 +193,7 @@
    }
    header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
    header .banner-text h3 {
-      font: 16px/1.9em 'librebaskerville-regular', serif;
+      font: 16px/1.9em 'Merienda One', serif;
       width: 85%;
    }
    header .banner-text hr {
@@ -355,7 +355,7 @@
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {
-      font: 14px/1.9em 'librebaskerville-regular', sans-serif;
+      font: 14px/1.9em 'Merienda One', sans-serif;
       width: 90%;
    }
   

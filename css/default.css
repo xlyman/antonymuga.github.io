@@ -143,7 +143,7 @@ html {
 }
 
 body {
-   background: #fff;
+   background: #d9d9d9;
    font-family: 'opensans-regular', sans-serif;
    font-weight: normal;
    font-size: 15px;
@@ -434,12 +434,12 @@ dd { margin: 0 0 0 20px; }
 }
 .pagination .page-numbers:hover {
    background: #838A91;
-   color: #fff;
+   color: #d9d9d9;
 }
 .pagination .current,
 .pagination .current:hover {
    background-color: #11ABB0;
-   color: #fff;
+   color: #d9d9d9;
 }
 .pagination .inactive,
 .pagination .inactive:hover {
@@ -470,7 +470,7 @@ input[type="button"] {
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
-   color: #fff;
+   color: #d9d9d9;
 	padding: 12px 20px;
 	margin-bottom: 18px;
    border: none;
@@ -495,7 +495,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 input[type="button"]:hover {
    background: #3d4145;
-   color: #fff;
+   color: #d9d9d9;
 }
 
 .button:active,
@@ -504,7 +504,7 @@ input[type="submit"]:active,
 input[type="reset"]:active,
 input[type="button"]:active {
    background: #3d4145;
-   color: #fff;
+   color: #d9d9d9;
 }
 
 .button.full-width,
