@@ -223,7 +223,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 #about p {
    line-height: 30px;
-   color: #7A7A7A;
+   color: white;
 }
 #about .profile-pic {
    position: relative;
@@ -278,15 +278,24 @@ ul#nav li.current a { color: #11ABB0; }
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
+   color:#11ABB0;
 }
 #resume h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
+   color:#11ABB0;
 }
 #resume h3 {
    font: 25px/30px 'opensans-bold', sans-serif;
 }
+.myquote {
+  color:white;
+  text-shadow: 1px 1px 2px black, 0 0 25px #11ABB0, 0 0 5px #11ABB0;
+}
 
+.mybio {
+  text-shadow: 1px 1px 2px black, 0 0 25px #11ABB0, 0 0 5px #11ABB0;
+}
 #resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
@@ -956,13 +965,14 @@ call-to-action .button {
 footer {
    padding-top: 48px;
    margin-bottom: 48px;
-   color: #303030;
+   color: white;
    font-size: 14px;
    text-align: center;
    position: relative;
+   text-shadow: 1px 1px 2px black, 0 0 25px #11ABB0, 0 0 5px #11ABB0;
 }
 
-footer a, footer a:visited { color: #525252; }
+footer a, footer a:visited { color: #11ABB0; }
 footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
@@ -977,13 +987,13 @@ footer .copyright li {
     line-height: 24px;
 }
 .ie footer .copyright li {
-   display: inline;
+   /*display: inline;*/
 }
 footer .copyright li:before {
     content: "\2022";
     padding-left: 10px;
     padding-right: 10px;
-    color: #095153;
+    color: white;
 }
 footer .copyright  li:first-child:before {
     display: none;
@@ -1014,11 +1024,12 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 #go-top a {
 	text-decoration: none;
-	border: 0 none;
+	border: 1 grey;
 	display: block;
 	width: 60px;
 	height: 60px;
-	background-color: #525252;
+	background-color: #11ABB0;
+  text-shadow: 1px 1px 2px black, 0 0 25px #11ABB0, 0 0 5px white;
 
 	-webkit-transition: all 0.2s ease-in-out;
    -moz-transition: all 0.2s ease-in-out;
