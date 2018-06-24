@@ -229,9 +229,9 @@ ul#nav li.current a { color: #11ABB0; }
 
 .other-details{
      line-height: 30px;
-     font-size: 16px;
+     font-size: 16p
    color: #11ABB0;
-    font: 16px/1.9em 'Merienda One', serif;
+    font: 16px/1.9em 'Calibri', serif;
     text-shadow: 1px 1px 2px black, 0 0 25px #11ABB0, 0 0 5px #11ABB0;
 }
 
@@ -304,6 +304,7 @@ ul#nav li.current a { color: #11ABB0; }
 }
 
 .mybio {
+  font: 18px/24px 'Merienda One', sans-serif;
   text-shadow: 1px 1px 2px black, 0 0 25px #11ABB0, 0 0 5px #11ABB0;
 }
 #resume .header-col { padding-top: 9px; }
