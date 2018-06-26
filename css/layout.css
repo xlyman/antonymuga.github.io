@@ -98,9 +98,13 @@ header .social li {
    margin: 0 15px;
    padding: 0;
 }
+
+
 header .social li a { color: #d9d9d9; }
 header .social li a:hover { 
   color: #11ABB0;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px black, 0 0 25px #d9d9d9, 0 0 5px #d9d9d9;
 
 }
 
