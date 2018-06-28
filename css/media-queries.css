@@ -108,6 +108,7 @@
       top: 0;
       right: 0;
    }
+
    #nav-wrap > a {
 	   width: 48px;
 		height: 48px;
@@ -348,7 +349,7 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
-   #nav-wrap ul#nav { width: auto; float: none; }
+   #nav-wrap ul#nav { width: auto; float: none;}
 
    /* header styles
    -------------------------------------------------------------------- */
