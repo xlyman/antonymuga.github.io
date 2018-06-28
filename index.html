@@ -40,6 +40,9 @@
    <!-- End all your vendor nightmares -->
    <script src="js/prefixfree.min.js"></script>
 
+   <!-- Browser detection-->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/bowser/1.9.3/bowser.min.js"></script>
+
    <!-- Favicons
 	================================================== -->
 	<link rel="shortcut icon" href="favicon.png" >
@@ -193,6 +196,34 @@
 
    <!-- Java Script
    ================================================== -->
+
+   <!-- Browser dtection -->
+   <script>
+   navigator.browserSpecs = (function(){
+      var ua = navigator.userAgent, tem,
+      M = ua.match(/(opera|chrome|safari|firefox|msie|trident(?=\/))\/?\s*(\d+)/i) || [];
+      if(/trident/i.test(M[1])){
+         tem = /\brv[ :]+(\d+)/g.exec(ua) || [];
+         return {name:'IE',version:(tem[1] || '')};
+      }
+      if(M[1]=== 'Chrome'){
+         tem = ua.match(/\b(OPR|Edge)\/(\d+)/);
+         if(tem != null) return {name:tem[1].replace('OPR', 'Opera'),version:tem[2]};
+      }
+      M = M[2]? [M[1], M[2]]: [navigator.appName, navigator.appVersion, '-?'];
+      if((tem = ua.match(/version\/(\d+)/i))!= null)
+         M.splice(1, 1, tem[1]);
+      return {name:M[0], version:M[1]};
+   })();
+   console.log(navigator.browserSpecs); //Object { name: "Firefox", version: "42" }
+   if ((navigator.browserSpecs.name == 'Chrome') == false) {
+   // Do something for if not Chrome.
+      alert("Please use Chrome browser to view this page. Some elements might not display correctly in your current browser.")
+   }
+   else {
+    // Do something for all other browsers.
+   }
+   </script>
    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
    <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
    <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
