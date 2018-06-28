@@ -23,8 +23,6 @@
    <link rel="stylesheet" href="css/media-queries.css">
    <link rel="stylesheet" href="css/magnific-popup.css">
 
-   <!-- Favicon -->
-
    <!--Digital font face-->
    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
 
@@ -39,9 +37,6 @@
 
    <!-- End all your vendor nightmares -->
    <script src="js/prefixfree.min.js"></script>
-
-   <!-- Browser detection-->
-   <script src="https://cdnjs.cloudflare.com/ajax/libs/bowser/1.9.3/bowser.min.js"></script>
 
    <!-- Favicons
 	================================================== -->
@@ -159,19 +154,13 @@
    </section> <!-- About Section End-->
 
 
-
-
+   <!-- Popup modal -->
       
 <section id="mymap">
    <section class="map">
       <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7979.536405873902!2d36.067072339672855!3d-0.2871810756362041!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x1de379889253a789!2sJomo+Kenyatta+University+of+Agriculture+and+Technology%2C+Nakuru+CBD!5e0!3m2!1sen!2ske!4v1528696291089" width="1600" height="350" frameborder="0" style="border:0" allowfullscreen></iframe>
    </section>
 </section>
-
-
-
-   
-
 
    <!-- footer
    ================================================== -->
@@ -197,7 +186,7 @@
    <!-- Java Script
    ================================================== -->
 
-   <!-- Browser dtection -->
+   <!-- Browser detection -->
    <script>
    navigator.browserSpecs = (function(){
       var ua = navigator.userAgent, tem,
@@ -216,9 +205,9 @@
       return {name:M[0], version:M[1]};
    })();
    console.log(navigator.browserSpecs); //Object { name: "Firefox", version: "42" }
-   if ((navigator.browserSpecs.name == 'Chrome') == false) {
+   if ((navigator.browserSpecs.name == 'Chrome') or (navigator.browserSpecs.name == 'Firefox') == false) {
    // Do something for if not Chrome.
-      alert("Please use Chrome browser to view this page. Some elements might not display correctly in your current browser.")
+      alert("Please use Chrome or Firefox to view this page correctly.")
    }
    else {
     // Do something for all other browsers.
