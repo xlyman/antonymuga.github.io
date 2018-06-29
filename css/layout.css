@@ -280,8 +280,7 @@ ul#nav li.current a { color: #11ABB0; }
 
 .map {
   padding-top:0px;
-  border: solid #11ABB0;
-  border-top: none;
+  border: 1px solid #11ABB0;
 }
 
 
