@@ -55,7 +55,10 @@
       margin-left: 12px;
    }
    #about .contact-details { width: 50%; }
-   #about .download { width: 50%; }
+   #about .download { 
+      width: 50%;
+      text-align: center;
+   }
 
    /* Resume Section
    ------------------------------------------------------------------- */
@@ -107,7 +110,7 @@
          margin:0px;
          border:solid 1px #11ABB0;
          border-radius:4px;
-         box-shadow: 1px 0px 31px 5px #11ABB0;
+         box-shadow: 1px 0px 15px 5px #11ABB0;
    }
    #activityHeader{
       display:none;
