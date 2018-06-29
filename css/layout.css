@@ -257,6 +257,9 @@ ul#nav li.current a { color: #11ABB0; }
    height: 250px;
    border-radius: 15px;
    border:solid 2px #11ABB0;
+   -webkit-box-shadow: 0px 2px 54px -4px #11ABB0;
+  -moz-box-shadow: 0px 2px 54px -4px #11ABB0;
+  box-shadow: 0px 2px 54px -4px #11ABB0;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
