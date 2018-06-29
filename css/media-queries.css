@@ -101,13 +101,16 @@
    -------------------------------------------------------------------- */
 
    .myTwitterGrid{
-        width:25%;
-        align-content: center;
-        height:50%;
-        margin:0px;
-        border:0px;
-        border-radius:0;
-        box-shadow: 0px;
+         width:100%;
+         align-content: center;
+         height:50%;
+         margin:0px;
+         border:solid 1px #11ABB0;
+         border-radius:4px;
+         box-shadow: 1px 0px 31px 5px #11ABB0;
+   }
+   #activityHeader{
+      display:none;
    }
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
