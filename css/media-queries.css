@@ -99,6 +99,16 @@
 
    /* mobile navigation
    -------------------------------------------------------------------- */
+
+   .myTwitterGrid{
+        width:25%;
+        align-content: center;
+        height:50%;
+        margin:0px;
+        border:0px;
+        border-radius:0;
+        box-shadow: 0px;
+   }
    #nav-wrap {
       font: 12px 'opensans-bold', sans-serif;
       background: transparent !important;
@@ -317,6 +327,8 @@
       width: 100%;
       margin-left: 0;
    }
+
+
 
 
    /* footer
