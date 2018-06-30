@@ -1,0 +1,32 @@
+https://sites.google.com/view/antonymuga/home
+
+
+<script type='application/ld+json'>
+{
+	"@context": "http://schema.org/",
+	"@type": "Person",
+	"additionalName": "Antony Muga",
+	"address": {
+		"@type": "PostalAddress",
+		"addressCountry": "Kenya",
+		"addressLocality": "Nakuru Town",
+		"addressRegion": "Nakuru County",
+		"description": "I have a burning passion for computer software programming. Largely, my heart beats for web development, design and all it's associated technologies and related fields. Because of this, I spend inordinate amount of time in front of IDEs and text editors. When not coding, I'm probably producing or deejaying electronic dance music(E.D.M), reading/writing, working out or just the occasional abstract painting and drawing."
+	},
+	"alumniOf": "http://kabarak.ac.ke/",
+	"birthPlace": {
+		"@type": "Place",
+		"map": "https://goo.gl/maps/ipyMnqCN1s22"
+	},
+	"photo": "https://antonymuga.github.io/images/profilepic.jpg",
+	"brand": [
+		"https://twitter.com/RuntimeClubKe",
+		"https://antonymuga.github.io/",
+		"https://sites.google.com/view/antonymuga/home",
+		"https://github.com/antonymuga/",
+		"https://github.com/RuntimeClubKe",
+		"https://plus.google.com/u/0/103924050042019714958",
+		"https://www.linkedin.com/in/antony-muga/"
+	]
+}
+</script>
