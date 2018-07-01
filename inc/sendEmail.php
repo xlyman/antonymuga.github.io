@@ -1,7 +1,7 @@
 ﻿<?php
 
 // Replace this with your own email address
-$siteOwnersEmail = 'user@website.com';
+$siteOwnersEmail = 'antony.muga.dev@gmail.com';
 
 
 if($_POST) {
@@ -32,7 +32,7 @@ if($_POST) {
 	$message .= "Email address: " . $email . "<br />";
    $message .= "Message: <br />";
    $message .= $contact_message;
-   $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
+   $message .= "<br /> ----- <br /> This email was sent from https://antonymuga.github.io contact form. <br />";
 
    // Set From: header
    $from =  $name . " <" . $email . ">";
