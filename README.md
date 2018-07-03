@@ -1,4 +1,3 @@
-# [ANTONYMUGA.GITHUB.IO](https://github.com/antonymuga/antonymuga.github.io) 
 ## SPECIFICATIONS & LICENSING:
 Welcome to my personal website page project.
 
