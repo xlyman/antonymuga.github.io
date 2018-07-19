@@ -1,0 +1,14 @@
+//Rewrite to www
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^antonymuga.github.io[nc]
+RewriteRule ^(.*)$ http://www.antonymuga.github.io/$1 [r=301,nc]
+
+//Caching schema
+<FilesMatch "\.(jpg|png|css|html|js)$">
+Header set Cache-Control "public, max-age=36000"
+</FilesMatch>
+
+//Change default directory page
+DirectoryIndex index.html
+ 
